@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Tickets</a>
+                <button id="dark-mode-boton">Dark Mode</button>
+            </nav>
+            
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival
+                    <span>Julio 2021, Málaga, Spain</span>
+                </h2>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+    <div id="festival" class="sobre-festival contenedor">        
+            <div class="imagen">
+                <img src="build/img/imagen_vocalista.jpg" alt="vocalista">
+            </div>
+            <div class="contenido-festival">
+                <h2>Rock & EDM Festival</h2>
+                <p class="fecha">Julio 2021, Málaga, Spain</p>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eos, libero illum alias quas iure reprehenderit sed nam et illo rerum.</p>
+            </div>       
+    </div>
+
+    <section class="lineup" id="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo grid">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Guns 'N Roses</span></li>
+                    <li>20:00 | <span>Led Zepellin</span></li>
+                    <li>19:00 | <span>Iron Maiden</span></li>
+                    <li>18:00 | <span>Red Hot Chilli Peppers</span></li>
+                    <li>17:00 | <span>Pearl Jam</span></li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Skrillex</span></li>
+                    <li>20:00 | <span>Tiësto</span></li>
+                    <li>19:00 | <span>Hardwell</span></li>
+                    <li>18:00 | <span>Dash Berlin</span></li>
+                    <li>17:00 | <span>Audien</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="dia">Sábado 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde grid">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>24:00 | <span>Sum 41</span></li>
+                    <li>22:00 | <span>Blink 181</span></li>
+                    <li>20:00 | <span>Simple Plan</span></li>
+                    <li>19:00 | <span>Fist to Fist</span></li>
+                    <li>18:00 | <span>Maniacs</span></li>
+                    <li>17:00 | <span>Locomotiv</span></li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+
+                <ul class="calendario">
+                    <li>24:00 | <span>David Gueta</span></li>
+                    <li>22:00 | <span>Steve Aoki</span></li>
+                    <li>20:00 | <span>Marien Baker</span></li>
+                    <li>19:00 | <span>Les Castizos</span></li>
+                    <li>18:00 | <span>Ironis</span></li>
+                    <li>17:00 | <span>Lov'and Kill</span></li>
+                </ul>
+            </div>
+
+        </div>
+       
+
+    </section>
+
+    <section class="galeria contenedor" id="galeria">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes">
+    
+        </ul>
+    </section>
+
+    <section class="boletos bg-verde" id="boletos">
+        <h3>Entradas</h3>
+
+        <div class="contenedor-boletos contenedor">
+
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                100€
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Camiseta de Regalo de EDM & Rock 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acceso VIP
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                175€
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>Festival Rock & EDM. Todos Los Derechos Reservados.</p>
+    </footer>
+
+    
+    <script src="build/js/bundle.min.js"></script>
+
+
+
+</body>
+</html>

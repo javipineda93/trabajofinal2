@@ -1,0 +1,51 @@
+.boletos{
+    padding: $separacion;
+
+    h3{
+        text-align: center;
+        color:$blanco;
+        text-transform: uppercase;
+        background-color: darken($verde, $amount: 10);
+    }
+
+    .contenedor-boletos{
+        margin-top: $separacion/ 2;
+        @include grid(2, $separacion);
+    }
+
+    .plan{
+
+        p{
+            color:$blanco;
+            font-size: 1.4rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    }
+}
+.pase{
+    width: 100%;
+    thead{
+        background-color: $rosa;
+        th{
+            padding: .5rem;
+            text-transform: uppercase;
+            font-weight: $bold;
+        }
+    }
+    tbody{
+        background-color: lighten($verde, $amount: 30);
+        td{
+            padding: 0.3rem;
+        }
+    }
+    tfoot{
+        background-color: lighten($amarillo, $amount: 10);
+        td{
+            padding: $separacion/5;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}
+
